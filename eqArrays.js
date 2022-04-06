@@ -17,7 +17,7 @@ const eqArrays = function(array1, array2) {
     return false;
   } else {
     for (let i = 0; i < array1.length; i++) {
-      if (array1[i] === array2 [i]) {
+      if (array1[i] === array2[i]) {
         continue;
       } else {
         return false;
@@ -26,6 +26,8 @@ const eqArrays = function(array1, array2) {
   }
   return true;
 };
+
+
 
 
 //console.log(assertEqual(eqArrays(["1", "2", "3"], ["1", "2", 3]), true));
