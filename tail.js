@@ -16,3 +16,4 @@ const tail = function(array) {
 const words = ["Yo Yo", "Lighthouse", "Labs"];
 console.log(tail(words));
 console.log(assertEqual(words.length, 3));
+
